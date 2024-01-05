@@ -28,4 +28,4 @@ for i in range(q): #
     else: # 3번문제일 때
         for k in range(arr_input[1]-1,arr_input[2]):
             print(arr_n[k] ,end=" ")
-    print()
+        print()
