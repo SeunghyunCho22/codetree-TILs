@@ -23,9 +23,6 @@ int main() {
             else if(i%10==0){
                 printf("%d ", i);
             }
-            else if((i%10)%3==0){
-                printf("0 ");
-            }
             else{
                 printf("%d ", i);
             }
