@@ -5,10 +5,10 @@ int main() {
     int n;
     scanf("%d", &n);
     for(int i=1; i<=n; i++){
-        if(i%10==3){
+        if((i%10)%3==0){
             printf("0 ");
         }
-        else if(i/10==3){
+        else if((i/10)%3==0){
             printf("0 ");
         }
         else{
