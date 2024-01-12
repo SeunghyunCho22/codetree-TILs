@@ -20,6 +20,9 @@ int main() {
             if((i/10)%3==0){ //30대 60대 90대
                 printf("0 ");
             }
+            else if(i%10==0){
+                printf("%d ", i);
+            }
             else if((i%10)%3==0){
                 printf("0 ");
             }
