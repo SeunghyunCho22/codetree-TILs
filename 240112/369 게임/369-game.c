@@ -15,6 +15,7 @@ int main() {
         }
         if (((i/10)+(i%10))%3==0){
             printf("0 ");
+            continue;
         }
 
         printf("%d ", i);
