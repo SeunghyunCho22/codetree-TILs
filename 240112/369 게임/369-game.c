@@ -17,7 +17,7 @@ int main() {
             if((i/10)%3==0){ //30대
                 printf("0 ");
             }
-            else if((i/10)%3==0){
+            else if((i%10)%3==0){
                 printf("0 ");
             }
             else{
