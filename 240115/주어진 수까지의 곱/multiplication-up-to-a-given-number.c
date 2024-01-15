@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &a, &b);
     for(int i=a; i<=b; i++){
         if(i%2==0){
-            prod*=i
+            prod*=i;
         }
     }
     printf("%d", prod);
