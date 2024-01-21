@@ -13,6 +13,7 @@ int main() {
         else if(i%9==0)
         {
             printf("%d ",i);
+            continue;
         }
         else if(i%3==0)
         {
